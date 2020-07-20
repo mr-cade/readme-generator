@@ -4,12 +4,12 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
     
-## Instructions
+## Instructions for ${data.title}
 * Installation: ${data.install}
 * Usage: ${data.usage}
 
-## License
-${data.license}
+## License for ${data.title}
+Type of license: ${data.license}
 
 ## Contribution Guidelines
 ${data.contributing}
@@ -18,7 +18,7 @@ ${data.contributing}
 ${data.tests}
 
 ## For Questions
-Please contact me at ${data.email}
+Please contact me via email at ${data.email}
 View source code on my github at ${data.github}
 `;
 }

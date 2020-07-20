@@ -34,9 +34,10 @@ const questions = [
         name: "usage"
     },
     {
-        type: "input",
+        type: "list",
         message: "Provide license details.",
-        name: "license"
+        name: "license",
+        choices: ["Public Domain", "Permissive", "LGPL", "Copyleft", "Proprietary"]
     },
     {
         type: "input",

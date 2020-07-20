@@ -1,20 +1,20 @@
-# boobs
+# boobies
 ## Description
-boobies
+boobies are great
     
-## Instructions
-* Installation: big boobies
-* Usage: big big DDD boobies
+## Instructions for boobies
+* Installation: look at the boobies
+* Usage: feel the boobies
 
-## License
-booger
+## License for boobies
+Copyleft
 
 ## Contribution Guidelines
-boogers
+contribute here
 
 ## Testing Details
-booger
+test here
 
 ## For Questions
-Please contact me at skierman
+Please contact me via email at cade@me.com
 View source code on my github at cade
