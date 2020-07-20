@@ -1,20 +1,28 @@
-# boobies
+# 
 ## Description
-boobies are great
+
     
-## Instructions for boobies
-* Installation: look at the boobies
-* Usage: feel the boobies
+### Instructions for 
+* Installation: 
+* Usage: 
 
-## License for boobies
-Copyleft
+### License for 
+```
+Type of license: Public Domain
+```
 
-## Contribution Guidelines
-contribute here
+### Contribution Guidelines
+```
 
-## Testing Details
-test here
+```
 
-## For Questions
-Please contact me via email at cade@me.com
-View source code on my github at cade
+### Testing Details
+```
+
+```
+
+### For Questions
+```
+Please contact me via email at 
+View source code on my github at 
+```
