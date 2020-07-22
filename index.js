@@ -18,11 +18,6 @@ const questions = [
         message: "What is the description of your project?",
         name: "description"
     },
-    // {
-    //     type: "input",
-    //     message: "What is the table of contents?",
-    //     name: "contents"
-    // },
     {
         type: "input",
         message: "Provide installation instructions.",
@@ -37,7 +32,7 @@ const questions = [
         type: "list",
         message: "Provide license details.",
         name: "license",
-        choices: ["Public Domain", "Permissive", "LGPL", "Copyleft", "Proprietary"]
+        choices: ["Public Domain", "Apache 2.0", "Boost", "BSD-2", "BSD-3"]
     },
     {
         type: "input",
