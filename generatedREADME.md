@@ -1,8 +1,8 @@
-# Test Title
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# title
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description
-This is a description of this test project
+description
 
 ## Table of Contents
 1. [Instructions](#Instructions)
@@ -11,21 +11,22 @@ This is a description of this test project
 4. [Questions](#Questions)
     
 ### Instructions
-* Installation: install here
-* Usage: use like this...
+* Installation: install
+* Usage: use
 
 ### Contribution 
 ```
-contribute on github and create pull request
+contribute
 ```
 
 ### Testing 
 ```
-test here
+test
 ```
 
 ### Questions 
-```
-Please contact me via email at cadelpetersen@gmail.com
-View source code on my github at mr-cade
-```
+
+Please contact me via email at <cadelpetersen@gmail.com>
+
+View source code on my github at [mr-cade](https://github.com/mr-cade)
+

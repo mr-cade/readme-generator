@@ -28,8 +28,8 @@ ${data.tests}
 
 ### Questions 
 \`\`\`
-Please contact me via email at ${data.email}
-View source code on my github at ${data.github}
+Please contact me via email at <${data.email}>
+View source code on my github at [${data.github}](https://github.com/${data.github})
 \`\`\`
 `;
 }
