@@ -1,8 +1,8 @@
-# title
-[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# Title
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 ## Description
-description
+described here
 
 ## Table of Contents
 1. [Instructions](#Instructions)
@@ -11,17 +11,17 @@ description
 4. [Questions](#Questions)
     
 ### Instructions
-* Installation: install
-* Usage: use
+* Installation: instructions here
+* Usage: use like this!
 
 ### Contribution 
 ```
-contribute
+contribute here
 ```
 
 ### Testing 
 ```
-test
+test like this
 ```
 
 ### Questions 
