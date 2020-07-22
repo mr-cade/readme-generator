@@ -4,6 +4,9 @@ function generateMarkdown(data) {
 # Table of Contents
 ###1. [Instructions](#Instructions)
 ###2. [License](#License)
+###3. [Contributing](#Contribution)
+###4. [Testing](#Testing)
+###5. [Questions](#Questions)
 
 
 ## Description
