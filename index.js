@@ -1,11 +1,38 @@
+// npm require statements
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+// pulls generate markdown function from generateMarkdown.js
 const generateMarkdown = require('./utils/generateMarkdown');
-
-
+// creates async file writing
 const writeFileAsync = util.promisify(fs.writeFile);
 
+const licenseOptions = [
+    {
+        name:"Apache 2.0",
+        value:"[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+        name:"Boost",
+        value:"[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+    },
+    {
+        name:"BSD 2",
+        value:"[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)"
+    },
+    {
+        name:"BSD 3",
+        value:"[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+    },
+    {
+        name:"MIT",
+        value:"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+        name:"Mozilla Public License 2.0",
+        value:"[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+    }
+ ]
 // array of questions for user
 const questions = [
     {
@@ -32,7 +59,7 @@ const questions = [
         type: "list",
         message: "Provide license details.",
         name: "license",
-        choices: ["Public Domain", "Apache 2.0", "Boost", "BSD-2", "BSD-3"]
+        choices: licenseOptions
     },
     {
         type: "input",
