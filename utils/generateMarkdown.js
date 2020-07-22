@@ -27,10 +27,11 @@ ${data.tests}
 \`\`\`
 
 ### Questions 
-\`\`\`
+
 Please contact me via email at <${data.email}>
+
 View source code on my github at [${data.github}](https://github.com/${data.github})
-\`\`\`
+
 `;
 }
 // sends function to index.js
