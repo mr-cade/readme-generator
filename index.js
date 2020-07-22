@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -69,7 +69,6 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     return inquirer.prompt(questions);
-    
 }
 
 // function call to initialize program
@@ -81,4 +80,4 @@ init()
     })
     .catch(function(err) {
         console.log(err);
-    })
+    });
